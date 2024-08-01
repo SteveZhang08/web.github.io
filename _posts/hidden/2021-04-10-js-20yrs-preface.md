@@ -4,6 +4,7 @@ title:        "《JavaScript 二十年》"
 author:       "Hux"
 header-style: text
 catalog:      true
+hidden: true
 tags:
     - Web
     - JavaScript
