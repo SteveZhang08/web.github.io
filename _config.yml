@@ -66,14 +66,14 @@ duoshuo_share: false                   # set to false if you want to use Comment
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: https://github.com/SteveZhang08
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，玩玩游戏，搞点“艺术”。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://stevezhang08.github.io/web.github.io/img/stevezhang08.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
