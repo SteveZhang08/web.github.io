@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     SteveZhang08
-zhihu_username:     SteveZhang08
+#weibo_username:     SteveZhang08
+#zhihu_username:     SteveZhang08
 github_username:    SteveZhang08
 #twitter_username:  SteveZhang08
-facebook_username:  SteveZhang08
+#facebook_username:  SteveZhang08
 
 
 
