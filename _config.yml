@@ -88,24 +88,23 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-/*
+
 # Friends
-friends: [
-    {
-        title: "SteveZhang08 's Blog",
-        href: "https://stevezhang08.github.io/web.github.io/"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
-]
-*/
+#friends: [
+#    {
+#        title: "SteveZhang08 's Blog",
+#        href: "https://stevezhang08.github.io/web.github.io/"
+#    },{
+#        title: "Foo",
+#        href: "#"
+#    },{
+#        title: "Bar",
+#        href: "#"
+#    },{
+#        title: "Example Friends",
+#        href: "#"
+#    },{
+#        title: "It helps SEO",
+#        href: "#"
+#    }
+#]
