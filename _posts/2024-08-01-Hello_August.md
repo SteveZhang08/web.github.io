@@ -30,7 +30,7 @@ tags:
 
 > 其实还有一点，自打认识起，貌似从未和 Li 失联如此之长的时间，难受
 
-![error](https://stevezhang08.github.io/web.github.io/img/in-post/2024-08-01/error4.PNG)
+![error](https://stevezhang08.github.io/web.github.io/img/in-post/2024-08-01/hello1.PNG)
 
 ## 新学期，新学校？
 
@@ -39,7 +39,7 @@ hmmm，毕竟是升高一，还是有点迷茫。
 本来就不会社交，上了高中就更不会了。  
 > 但难道高中三年就当个NPC吗？我不想这样子
 
-![error](https://stevezhang08.github.io/web.github.io/img/in-post/2024-08-01/error3.PNG)
+
 
 ## 再试着编点什么？
 编不下去了，我不是文科生。。。
