@@ -33,7 +33,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 
 
@@ -44,12 +44,7 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+
 
 
 # Disqus settings
@@ -58,7 +53,9 @@ kramdown:
 # Duoshuo settings
 duoshuo_username: SteveZhang08
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                   # set to false if you want to use Comment without Sharing
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
 
 
 # Analytics settings
@@ -66,7 +63,7 @@ duoshuo_share: false                   # set to false if you want to use Comment
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: https://stevezhang08.github.io/web.github.io/
 
 
 
@@ -81,12 +78,7 @@ sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
 
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
 
 # Friends
 friends: [
