@@ -6,7 +6,7 @@ email: SteveZhang05962022@outlook.com
 description: "一位在人间游荡的赛博灵魂的博客"
 keyword: "博客"
 url: "https://stevezhang08.github.io/web.github.io/"              # your host, for absolute URL
-baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
