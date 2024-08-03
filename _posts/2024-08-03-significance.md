@@ -4,7 +4,7 @@ title:      "何所谓“意义”？"
 subtitle:   ""
 date:       2024-08-03 15:20:00
 author:     "SteveZhang08"
-header-img: "img/in-post/2024-08-01/head.jpg"
+header-img: "img/in-post/2024-08-03/head.jpg"
 tags:
     - 生活
 ---
@@ -16,7 +16,7 @@ tags:
 
 仿佛一件事情的“意义”，就成为了衡量我们是否应该做这件事的标准。
 
-![意义](https://stevezhang08.github.io/web.github.io/img/post/2024-08-01/head.jpg)
+![意义](https://stevezhang08.github.io/web.github.io/img/post/2024-08-03/clock.jpeg)
 
 当然，我们无法做到什么事情都给出其“意义”，于是干脆就不做这件事了。最后发现，剔除那些“无意义”的事情之后，啥都没干。
 
@@ -25,14 +25,14 @@ tags:
 
 但是，这样的生活，真的好吗？
 
-![机械大脑]()
+![机械大脑](https://stevezhang08.github.io/web.github.io/img/post/2024-08-03/brain.jpeg)
 
 ## 接受无意义，来自生活的“智慧”
 当你的脑子感到十分疲惫的时候，不妨试试让生活的某个时刻，变得“无意义”。
 
 不妨在下午的课程结束时，亦或是下班后，静静的望着夕阳落下，感受着“夕阳无限好”的意境，什么都不要去想。
 
-![落日]()
+![落日](https://stevezhang08.github.io/web.github.io/img/post/2024-08-03/sunset.png)
 
 这种时刻，并没有明确的意义。但正是这种纯粹的体验，让我们感受到生活的美好和宁静。仿佛这一刻，你才在真正的“生活”，而非为了“生存”
 而奔波，体验童年般的最纯粹的“快乐”。
@@ -49,4 +49,4 @@ tags:
 >
 > 享受这些“无意义”的瞬间吧，我们只需要欣赏它
 
--SteveZhang08
+-SteveZhang08 一个存在着无意义的人
