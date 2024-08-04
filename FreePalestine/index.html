@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>艾丽卡</title>
+    <script src="jquery.js"></script>
+    <style>
+        @font-face {
+            font-family: 'liu';
+            src: url('liu.ttf');
+        }
+        body{
+            font-family: liu;
+        }
+        #aa {
+            position: relative;
+            border: 1px solid black;
+            width: 1340px;
+            height: 600px;
+            overflow: hidden;
+        }
+        #fangkuai {
+            transition: all 0.4s ease 0s;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 620px;
+        }
+        #ks {
+            position: absolute;
+            top: 50px;
+        }
+
+        #cz {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .win {
+            position: absolute;
+            top: 300px;
+            font-style: liu;
+            font-size: 100px;
+        }
+        #lhg {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 1300px;
+        }
+        #ysl{
+            
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 0px;
+        }
+        #result{
+            position: absolute;
+            font-family: '隶书';
+            top: 100px;
+            font-size: 90px;
+        }
+    </style>
+</head>
+<body>
+    <div id="aa">
+        <img src="blst.png" alt="" id="fangkuai">
+        <img src="ysl.png" alt="" id="ysl">
+        <img src="lhg.png" alt="" id="lhg">
+        <hr color="red" size="20">
+        <button id="ks">开始</button>
+        <button type="reset" id="cz">重置</button>
+        <span id="result">狂按空格，使巴勒斯坦远离以色列加入联合国！！！</span>
+        <span class="win" ></span>
+        <audio src=""></audio>
+    </div>
+    <script>
+        $(document).ready(function () {
+            var x = 620;
+            $('#ks').click(function () {;
+                $(this).prop("disabled", true);
+                $("#fangkuai").click( function () {
+                    x += 10;
+                    $(this).css("left", x + "px");
+                    if (x > 1240) {
+                        $('#ysl').prop("src",'1280.png')
+                        $(".win").text("you win");
+                        $(document).off("keydown");
+                        clearInterval(timer);
+                    } else if (x < 100) {
+                        $(".win").text("you fail")
+                        $(document).off("keydown");
+                        clearInterval(timer);
+                    }
+                });
+                $("#fangkuai").trigger("click");
+                var timer = setInterval(function () {
+                    x -= 20;
+                    $("#fangkuai").css("left", x + "px");
+                }, 1000);
+                $(document).on("keydown", function (event) {
+                    if (event.keyCode == 32) {
+                        $("#fangkuai").trigger("click");
+                    }
+                });
+
+            });
+            $('#cz').click(function () {
+                x = 620;
+                $("#ysl").attr("src", "ysl.png");
+                $('#ks').prop("disabled", false);
+                $("#ysl").attr("src", "ysl.png");
+                $(".win").text("");
+                $("#fangkuai").css("left", x + "px");
+                $(document).off("keydown");
+            });
+        });6
+    </script>
+</body>
+</html>
