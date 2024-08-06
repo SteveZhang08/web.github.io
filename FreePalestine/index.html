@@ -36,22 +36,42 @@
             position: absolute;
             width: 10%;
             height: 10%;
-            left: 30%
-            ;
+            left: 30%;
+        }
+        #chushi {
+            position: relative;
+            border: 1px solid white;
+            width: 30%;
         }
         #ks {
             position: absolute;
-            top: 50px;
+            top: 15%;
+            left: 1%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            
         }
-
         #cz {
             position: absolute;
-            top: 50px;
-            left: 50px;
+            top: 15%;
+            left: 10%;
+            background-color: #F44336;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
         }
         .win {
             position: absolute;
-            top: 300px;
+            top: 60%;
             font-style: liu;
             font-size: 100px;
             color: aliceblue;
@@ -84,8 +104,7 @@
         }
     </style>
 </head>
-<!--top: 100px;-->
-<!--font-size: 90px;-->
+
 <body>
     <audio src="bm.mp3" loop></audio>
     <div id="aa">
@@ -100,10 +119,10 @@
         <audio src=""></audio>
     </div>
     <script>
-        var x1 = $("#fangkuai").width;
+        var x1 = $("#fangkuai").width() + 100;
         $(document).ready(function () {
-            var x = 520;
-            //var x = x1;
+            //var x = 520;
+            var x = x1;
             $('#ks').click(function () {;
                 $(this).prop("disabled", true);
                 $("#fangkuai").click( function () {
@@ -113,7 +132,7 @@
                     var resultWidth = $("#result").width();
                     if (x > resultWidth) {
                         $('#ysl').prop("src",'./1280.png')
-                        $(".win").text("\n\nyou win");
+                        $(".win").text("you win");
                         $(document).off("keydown");
                         clearInterval(timer);
                     } else if (x < 100) {
@@ -135,7 +154,7 @@
 
             });
             $('#cz').click(function () {
-                x = 620;
+                x = x1;
                 $("#ysl").attr("src", "ysl.png");
                 $('#ks').prop("disabled", false);
                 $("#ysl").attr("src", "ysl.png");
