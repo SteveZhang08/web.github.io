@@ -65,7 +65,10 @@ Python官网: [python.org](pyhton.org)
 5.等待仓库克隆完成后打开编辑器,使用你的编辑器打开仓库所保存的文件夹就可以开始更改代码了  
 
 # 提交你的更改
-1.修改完成后回到```GitHub Desktop```，先点击```Fetch Origin```获取仓库的最新更新，接着输入你更改的内容和备注（在左下角）
-2.点击```Commit to master```，保存提交
+1.修改完成后回到```GitHub Desktop```，先点击```Fetch Origin```获取仓库的最新更新，接着输入你更改的内容和备注（在左下角）  
+2.点击```Commit to master```，保存提交  
+3.点击```Push origin```提交到仓库  
+![Finish!](https://stevezhang08.github.io/web.github.io/img/in-post/2024-08-27/10.PNG)   
+4.恭喜你，你成功完成了一次提交
 
 -SteveZhang08 
