@@ -18,7 +18,7 @@ tags:
 
 ![error](https://stevezhang08.github.io/web.github.io/img/in-post/2024-08-01/error4.PNG)
 
-##发生了什么？
+## 发生了什么？
 
 最初脑子是宕机的，啥都没看就把仓库重新push，还重新创建了jekyll.yml；<br>
 很显然，无济于事。<br>
@@ -33,7 +33,7 @@ tags:
 
 ![error](https://stevezhang08.github.io/web.github.io/img/in-post/2024-08-01/error2.PNG)
 
-##解决问题
+## 解决问题
 
 是被自己气笑了
 在yml文件中,注释只能使用 `#` ; 没有多行注释这玩意<br>
