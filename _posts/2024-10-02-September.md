@@ -29,6 +29,6 @@ tags:
 望十月，会变得更好。
 > “你无法阻止明天的到来，但你可以决定用何种态度迎接他”
 
-![tomorrow](https://stevezhang08.github.io/web.github.io/img/in-post/2024-10-02/tomorrow.JPG)
+![tomorrow](https://stevezhang08.github.io/web.github.io/img/in-post/2024-10-02/tomorrow.png)
 
 -SteveZhang08 一位普通的三中学子
