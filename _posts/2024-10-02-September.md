@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "九月：新的开始
+title:      "九月：新的开始"
 subtitle:   "——记在三中的一个月"
 date:       2024-10-02 21:46:00
 author:     "SteveZhang08"
